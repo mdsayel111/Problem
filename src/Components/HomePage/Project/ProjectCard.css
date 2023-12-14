@@ -1,0 +1,14 @@
+.card.image-full:before {
+  background-color: transparent !important;
+}
+
+.project-card:hover .card.image-full::before {
+  background-color: var(
+    --fallback-n,
+    oklch(var(--n) / var(--tw-bg-opacity))
+  ) !important;
+}
+
+.project-card:hover .card-body {
+  display: flex;
+}
