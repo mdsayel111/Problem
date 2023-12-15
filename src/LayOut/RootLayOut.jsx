@@ -9,10 +9,10 @@ import TsParticales from "../Components/TsParticales/TsParticales";
 const RootLayOut = () => {
   return (
     <div>
+      <h1>hellow</h1>
       <Navbar />
       <Outlet />
       <Footer />
-      {/* <TsParticales /> */}
     </div>
   );
 };
